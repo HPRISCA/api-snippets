@@ -15,7 +15,7 @@ get:
   operationId: GetAccountRequest
   summary: GetAccountRequest
   description: |
-    The `GET /tppAccountsRequest/{ID}` is used to request status of POST /tppAccountRequest/ call.
+    The `GET /tppAccountsRequest/{ID}` is used to request status of POST /tppAccountsRequest/ call.
     The *{ID}* in the URI should contain the accountRequestId that was assigned to the
     request by the PISP when the PISP originated the request. The result is return via the PUT callback.
   tags:
@@ -64,7 +64,7 @@ put:
     content:
       application/json:
         schema:
-          $ref: ../components/schemas/tppAccountRequestPutResponse.yaml
+          $ref: ../components/schemas/tppAccountsRequestPutResponse.yaml
   responses:
     202:
       $ref: ../components/responses/202.yaml

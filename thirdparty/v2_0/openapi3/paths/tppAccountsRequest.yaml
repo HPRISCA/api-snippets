@@ -27,7 +27,7 @@ post:
     content:
       application/json:
         schema:
-          $ref: ../components/schemas/tppAccountRequestPostRequest.yaml
+          $ref: ../components/schemas/tppAccountsRequestPostRequest.yaml
   responses:
     202:
       $ref: ../components/responses/202.yaml
