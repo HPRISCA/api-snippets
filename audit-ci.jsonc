@@ -8,6 +8,14 @@
             [05-18-2026] ws (WebSocket): Uninitialized memory disclosure.
             Not direct dependency of the repo but used inside "@redocly/cli@2.31.1", "browser-sync@3.0.4", and "socket.io@4.8.3".
         **/
-        "GHSA-58qx-3vcg-4xpx"
+        "GHSA-58qx-3vcg-4xpx",
+        /**
+            [01-23-2026] immutable: Hash-collision algorithmic complexity denial of service in Immutable.Map/Set
+            and 32-bit trie overflow → unrecoverable DoS
+            Not direct dependency, only used by browser-sync (dev-only dependency for local development server).
+            browser-sync is not used in production or CI/CD pipelines, only for local "dev:watch" script.
+        **/
+        "GHSA-v56q-mh7h-f735",
+        "GHSA-xvcm-6775-5m9r"
     ]
 }
