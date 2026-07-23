@@ -134,7 +134,7 @@
     "jest": "^30.4.2",
     "jest-junit": "^17.0.0",
     "json-schema-to-ts": "^3.1.1",
-    "lint-staged": "^17.1.1",
+    "lint-staged": "^17.2.0",
     "npm-check-updates": "^22.2.9",
     "prettier": "^3.9.6",
     "standard-version": "^9.5.0",
